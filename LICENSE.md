@@ -1,5 +1,4 @@
-Everything except stb_image folder:
-------------------------------------------------------------------------------
+# Everything except stb_image folder:
 
 Copyright (c) 2020 [Manu De Buck](https://mdebuck.org)
 
@@ -21,11 +20,9 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[stb_image folder](https://github.com/nothings/stb) 
---------
+# [stb_image folder](https://github.com/nothings/stb) 
 
-This software is available under 2 licenses -- choose whichever you prefer.
-------------------------------------------------------------------------------
+## This software is available under 2 licenses -- choose whichever you prefer.
 
 ALTERNATIVE A - MIT License
 Copyright (c) 2017 Sean Barrett
@@ -44,7 +41,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-------------------------------------------------------------------------------
+
 ALTERNATIVE B - Public Domain (www.unlicense.org)
 This is free and unencumbered software released into the public domain.
 Anyone is free to copy, modify, publish, use, compile, sell, or distribute this
@@ -62,4 +59,3 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
 ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
