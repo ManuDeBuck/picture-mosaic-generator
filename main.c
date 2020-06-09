@@ -25,11 +25,13 @@ int main(int argc, char **argv) {
         collage_image = (char *) malloc(sizeof(char) * strlen(optarg) + 1);
         test_allocation(collage_image);
         strcpy(collage_image, optarg);
+        collage_image[strlen(optarg)] = '\0';
         break;
       case 'd':
         tile_directory = (char *) malloc(sizeof(char) * strlen(optarg) + 1);
         test_allocation(tile_directory);
         strcpy(tile_directory, optarg);
+        tile_directory[strlen(optarg)] = '\0';
         break;
       case 't':
         amount_of_tiles = atoi(optarg);
@@ -49,6 +51,7 @@ int main(int argc, char **argv) {
         output_file_name = (char *) malloc(sizeof(char) * strlen(optarg) + 1);
         test_allocation(output_file_name);
         strcpy(output_file_name, optarg);
+        output_file_name[strlen(output_file_name)] = '\0';
         break;
       default:
         print_usage();
